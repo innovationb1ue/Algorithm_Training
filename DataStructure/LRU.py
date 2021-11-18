@@ -70,7 +70,7 @@ class doubleList:
 
 class LRUcache:
     def __init__(self, cap: int):
-        self.hashmap = dict()
+        self.hashmap = {}
         self.cache = doubleList()
         self.cap = cap
 
